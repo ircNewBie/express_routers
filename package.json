@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "dev": "nodemon server"
+    "dev": "nodemon server ", 
+    "test": "mocha ./test/cases"
   },
   "author": "Dave Gray",
   "license": "ISC",
@@ -13,9 +14,13 @@
     "cors": "^2.8.5",
     "date-fns": "^2.23.0",
     "express": "^4.17.1",
-    "uuid": "^8.3.2"
+    "uuid": "^8.3.2",
+    "yarn": "^1.22.18"
   },
   "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "mocha": "^9.2.2",
     "nodemon": "^2.0.12"
   }
 }
